@@ -1,0 +1,180 @@
+body{
+    height: auto;
+    width: 100vw;
+}
+.top{
+    width:60vw;
+    height:2vh;
+    margin: 0 auto;
+    text-align: center;
+    letter-spacing: 1.5rem;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+    
+}
+
+.titleTop{
+    width: 40%;
+    height: 80%;
+    text-align: center;
+    float: left;
+    letter-spacing: 5px;
+}
+.sort{
+    width: 30%;
+    height: 80%;
+    
+    float: left;
+    padding-top: 12px;
+    
+}
+.filter {
+    width: 60vw;
+    height: 10vh;
+    position: relative;
+    top: 5vh;
+    margin: 0 auto;
+
+}
+.filterBtn{
+    width: 18%;
+    height: 52%;
+    background-color: rgb(2, 2, 36);
+    float: left;
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+    position: relative;
+    border-radius: 6px;
+    
+}
+.filterBtn:hover{
+    background-color: red;
+}
+.filterBtn > h4{
+    margin: 0;
+    position: absolute;
+    bottom: 25%;
+    left: 33%;
+    font-family: 'Mulish',
+    sans-serif;
+}
+.mainContainer{
+    width: 60vw;
+    height: auto;
+    
+    margin: 0 auto;
+    position: relative;
+    top: 5vh;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+.subContainer{
+    width: 250px;
+    height: 50vh;
+    margin-left: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 0;
+    box-shadow: 5px 5px 5px 5px  rgba(238, 236, 236, 0.856);
+    border: 2px solid rgb(190, 185, 185);
+    -webkit-transition:1s;
+}
+.subContainer:hover{
+    
+    transition: 0.8s;
+    transform: scale(1.3);
+    z-index: 1;
+    
+}
+
+.imageContainer{
+    width: 100%;
+    height: 80%;
+    filter: blur(2px);
+}
+.imageContainer:hover{
+    filter: none;
+
+}
+#imgContainer1{
+    background-image: url(fashion1.jpg);
+    background-size: 100% 100%;
+}
+#imgContainer2{
+    background-image: url(fashion2.jpg);
+    background-size: 100% 100%;
+}
+#imgContainer3 {
+    background-image: url(fashion3.jpg);
+    background-size: 100% 100%;
+}
+#imgContainer4 {
+    background-image: url(fashion4.jpg);
+    background-size: 100% 100%;
+    
+}
+#imgContainer5 {
+    background-image: url(fashion5.jpg);
+    background-size: 100% 100%;
+}
+#imgContainer6 {
+    background-image: url(fashion6.jpg);
+    background-size: 100% 100%;
+}
+#imgContainer7 {
+    background-image: url(fashion7.jpg);
+    background-size: 100% 100%;
+}
+#imgContainer8 {
+    background-image: url(fashion8.jpg);
+    background-size: 100% 100%;
+}
+#imgContainer9 {
+    background-image: url(fashion9.jpg);
+    background-size: 100% 100%;
+}
+.descriptionContainer{
+    width: 100%;
+    height: 8%;
+    text-align: center;
+    padding-top: 5px;
+    background-color: white;
+   
+}
+.buttonContainer{
+    width: 100%;
+    height: 8%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    background-color: white;
+    
+}
+.Cart{
+    width: 25%;
+    background-color: black;
+    color: white;
+}
+.Cart:hover{
+    background-color: red;
+}
+.View:hover{
+    background-color: black;
+    color: red;
+}
+.View{
+    width: 25%;
+    background-color: white;
+}
+h3{
+    font-size: 1rem;
+}
+@media only screen and (max-width:300px){
+    h3{font-size:0.8rem}
+}
+
+
+
+

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+        href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+        rel="stylesheet">
+        <style>
+            body{
+                background-color: rgba(0, 255, 255, 0.144);
+            }
+            #delete-btn,#edit-btn{
+                border: none;
+                background-color: white;
+            }
+            
+            p{
+                width: 90%;
+            }
+            ul{
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+                
+            }
+            li{
+                list-style: none;
+                text-transform: capitalize;
+                display: flex;
+                gap: 0.1rem;
+                background-color: white;
+                padding: 5px;
+                line-height: 1rem;
+                border-radius: 10px;
+                border: 1px solid black;
+                
+            }
+            #container{
+                width: 50vw;
+                height: auto;
+                margin: 0 auto;
+            }
+            #AddTitle{
+                width:70%;
+                line-height: 2rem;
+                margin-left: 2.5rem;
+                padding: 5px;
+            }
+            #add-btn{
+                box-sizing: border-box;
+                line-height: 2rem;  
+                width: 15%;
+                padding: 5px;
+                letter-spacing: 1px;
+            }
+            .add-container{
+                display: flex;
+                gap: 1rem;
+            }
+            #added-delete-btn,#added-edit-btn{
+                background-color: white;
+                border: none;
+            }
+            .goTop{
+                width: 2.2rem;
+                height: 2.2rem;
+                background-color: white;
+                border-radius: 5px;
+                margin: 0 auto;
+                background-color: rgba(4, 0, 255, 0.534);
+            }
+            a{
+                text-decoration: none;
+                color: white;
+            }
+        </style>
+</head>
+<body>
+    <div id="container">
+        <div class="add-container">
+            <input type="text" name="AddTitle" id="AddTitle" placeholder="Add Your Title">
+            <button id="add-btn">Submit</button>
+        </div>
+        
+        <ul id="myList"></ul>
+        <div class="goTop">
+            <a href="#">Go Top</a>
+        </div>
+    </div>
+    
+
+    <script src="index.js"></script>
+</body>
+</html>

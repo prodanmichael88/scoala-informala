@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first html Page</title>
+</head>
+<body>
+    
+    <h1>Employee information</h1>
+
+<fieldset style="padding:10px;margin:10px;background-color: antiquewhite;">
+    <legend style="font-size:25px;font-style: oblique;color: rgb(162, 0, 255);">Personal details</legend>
+    <label for="firstName">First Name</label>
+    <input type="text" name="firstName" id="firstName"><br><br>
+    <label for="lastName">Last Name</label>
+    <input type="text" name="lastName" id="lastName"><br><br>
+    <label for="gender">Gender</label>
+    <input type="radio" name="gender" value="Male">
+    <label for="Male">Male</label>
+    <input type="radio" name="gender" value="Female">
+    <label for="Female">Female</label><br><br>
+    <label for="dateOfBirth">Date Of Birth</label>
+    <input type="text" name="dateOfBirth" id="dateOfBirth"><br><br>
+    <label for="email">Email</label>
+    <input type="text" name="email" id="email"><br><br>
+    <label style="display: block;" for="address">Address</label>
+    <textarea name="address" id="address" cols="30" rows="3"></textarea>
+    
+
+</fieldset>
+<fieldset style="padding:10px; margin: 10px;background-color: antiquewhite;">
+    <legend style="font-size:25px;font-style: oblique;color: rgb(162, 0, 255);">Job details</legend>
+    <label for="badgeNumber">Badge Number</label>
+    <input type="text" name="badgeNumber" id="badgeNumber"><br><br>
+    <label for="position">Position</label>
+    <input type="text" name="position" id="position"><br><br>
+    <label for="department">Department</label>
+    <input type="text" name="department" id="department"><br><br>
+    <label for="manager">Manager</label>
+    <input type="text" name="manager" id="manager"><br><br>
+    <input type="submit" name="submitBtn" value="Send" style="color: blue;">&nbsp;
+    <input type="reset" name="resetBtn" value="Reset Form"style="color: blue;">
+</fieldset>
+    <style>label{color: blue;}
+    </style>
+
+</body>
+
+</html>

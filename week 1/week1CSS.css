@@ -1,0 +1,59 @@
+.container{
+    position: fixed;
+    top: 50%;
+    left: 50%;  
+    width: 50vw;
+    height: 50vh;
+    transform: translate(-50%,-50%);  
+    background-color: rgba(221, 226, 230, 0.349);
+    
+    
+}
+
+.yellowContainer{
+    width: 80%;
+    height: 20%;
+    margin: 0 auto;
+    margin-top: 2%;
+    background-color:yellow
+    
+    
+}
+.yellowContainer:hover{
+    
+    background: repeating-linear-gradient(#74ABDD, #74ABDD 49.9%, #498DCB 50.1%, #498DCB 100%);
+    transition:1s;
+}
+.greenContainer{
+    width: 80%;
+    height: 20%;
+    margin: auto;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+.greenContainer1{
+    width: 45%;
+    height: 100%;
+    background-color: rgb(115, 185, 74);
+    
+}
+
+.blueContainer{
+    width: 80%;
+    height: 20%;
+    margin: 0 auto;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+    
+
+.blueContainer1{
+    width: 20%;
+    height: 100%;
+    background-color: blue;
+
+}
+

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+        <div class="backImage"></div>
+        <div class="mainContainer">
+            <div class="optionsContainer">
+                <label for="animals">Choose an animal photo:</label><br><br>
+                <select name="animals" id="animals" >
+                    <option value="" disabled selected hidden>Choose an animal</option>
+                    <option value="dog" class="animals">Dog</option>
+                    <option value="cat" class="animals">Cat</option>
+                    <option value="fox" class="animals">Fox</option>
+                </select>
+                <button onclick="getPhoto()">Get random photo</button>
+            </div>
+            <div class="photoContainer" id="photoContainer"><img src="animal.jpg" alt=""></div>
+        </div>
+    
+        <script src="index.js"></script>
+        
+</body>
+</html>

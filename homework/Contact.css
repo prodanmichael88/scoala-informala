@@ -1,0 +1,104 @@
+html body {
+    margin: 0;
+}
+header{
+    box-sizing: border-box;
+    width: 96%;
+    background-color: rgba(128, 128, 128, 0.151);
+    margin: 2%;
+    padding: 40px 220px;
+}
+header h1{
+    font-size: 60px;
+    color: rgba(0, 0, 0, 0.993);
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+header span{
+    font-size: 40px;
+    color: grey;
+}
+form{
+    box-sizing: border-box;
+    width: 50%;
+    background-color: rgba(128, 128, 128, 0.151);
+    margin: 0 auto;
+    height: 36vh;
+    padding-bottom: 15px;
+}
+.left{
+    width: 48%;
+    box-sizing: border-box;
+    float: left;
+}
+label{
+    display:block;
+    width: 90%;
+    padding: 10px;
+    font-size: large;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin:0;
+}
+input{
+    border-radius: 5px;
+    border-color: rgba(128, 128, 128, 0.24);
+    padding: 5px 10px 5px 10px;
+    position: relative;
+    left: 7px;
+    margin-bottom: 10px;
+    line-height: 1.7rem;
+    width: 90%;
+    font-size: large;
+}
+.right{
+    width: 48%;
+    height: 100%;
+    float: right;
+    
+}
+button{
+    padding: 8px;
+    margin: 10px;
+    float: right;
+    font-size: large;
+    color: white;
+    background-color: rgba(3, 33, 201, 0.897);
+    border: none;
+    border-radius: 5px;
+}
+#message{
+    padding: 10px;
+    font-size: large;
+    border-radius: 5px;
+    border-color: rgba(128, 128, 128, 0.431);
+    width: 93%;
+    height: 64%;
+    
+}
+h2{
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: lighter;
+    position: relative;
+    top: 15px;
+    border-bottom: 1px solid black;
+    padding: 5px;
+}
+nav{
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    
+    
+}
+nav a{
+    text-decoration: none;
+    color: rgba(0, 0, 255, 0.685);
+}

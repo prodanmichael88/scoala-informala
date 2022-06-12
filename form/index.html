@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="backImage"></div>
+    <div class="mainContainer">
+        <h1>Find out your BMI</h1>
+        <form action="" class="form" >
+            <label for="name" id="nameField">
+                <input type="text" name="name" id="name" placeholder="Enter Name" required >
+            </label>
+            <label for="gender" id="genderField">
+                <input type="text" name="gender" id="gender"
+                placeholder="Enter Gender" required>
+            </label>
+            <label for="height" id="heightField">
+                <input type="text" name="height" id="height" placeholder="Enter Height in m" required >
+            </label>
+            <label for="weight" id="weightField" >
+                <input type="text" name="weight" id="weight" placeholder="Enter Weight in kg" required>
+            </label>
+            
+        </form>
+        <button onclick="bmiResult()" class="submitButton">Submit</button>
+        <button onclick="reset()" class="resetButton">Reset</button>
+        <label class="resultLabel" id="resultContent"></label>
+    </div>
+   
+</body>
+</html>

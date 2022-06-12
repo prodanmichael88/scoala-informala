@@ -1,0 +1,105 @@
+body {
+    background:url(anfieldRoad.JPG);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+#liverpool{
+    background-image: url(liverpool.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 10vw;
+    height: 30vh;
+    position: absolute;  
+    left: 5%;
+}
+#container{
+    background-image: linear-gradient(to bottom,rgb(14, 245, 14,0.5),rgb(236, 15, 26,0.5));
+    width: 80vw;
+    height: 80vh;
+    position: relative;
+    margin: 0 auto;
+    top: 10vh;
+    clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+}
+.players{
+    width: 10%;
+    height: 20%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    -webkit-transition: 1s;
+    
+}
+.players:hover{
+    transform: rotateY(180deg);
+    transition: 1s;
+    opacity: 0.5;
+    
+}
+#mane{
+    background-image: url(mane2.png);
+    left: 20%;
+    top:10%;
+}
+#jota{
+    background-image: url(jota.png);
+    left: 45%;
+    top: 5%;
+}
+#salah{
+    background-image: url(salah.png);
+    left: 70%;
+    top: 10%;
+}
+#fabinho{
+    background-image: url(fabinho.png);
+    top: 32%;
+    left: 25%;
+}
+#thiago{
+    background-image: url(thiago.png);
+    top: 30%;
+    left: 45%;
+}
+#henderson{
+    background-image: url(henderson.png);
+    top:32% ;
+    left: 65%;
+}
+#robertson{
+    background-image: url(robertson2.png);
+    top:60% ;
+    left:15% ;
+}
+#vanDijk{
+    background-image: url(vanDijk.png);
+    top: 60%;
+    left: 35%;
+}
+#matip{
+    background-image: url(matip.png);
+    top: 60%;
+    left:55% ;
+}
+#arnold{
+    background-image: url(arnold.png);
+    top: 60%;
+    right: 15%;
+}
+#allison{
+    background-image: url(allison.png);
+    top: 80%;
+    left: 45%;
+}
+#klopp{
+    width: 15%;
+    height: 30%;
+    background-image: url(klopp.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 70Vh;
+    left: 80%;
+}

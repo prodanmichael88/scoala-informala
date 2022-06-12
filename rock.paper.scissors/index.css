@@ -1,0 +1,91 @@
+body html{
+    height: 100%;
+    margin: 0;
+}
+.header{
+    width: 70%;
+    height: auto;
+    font-size: larger;
+    font-weight: lighter;
+    background-color: rgba(212, 180, 180, 0.329);
+    box-sizing: border-box;
+    padding: 50px;
+    margin: 0 auto;
+    text-align: center;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+}
+.buttonsContainer{
+    width: 70%;
+    height: auto;
+    display: flex;
+    justify-content:center;
+    box-sizing: border-box;
+    position: relative;
+    padding: 5%;
+    margin: 0 auto;
+    background-image: url(rockpaperscissors.jpg);
+    background-size: 100% 100%;
+
+}
+.buttonsContainer h2 {
+    position: absolute;
+    top: 70%;
+    letter-spacing: 5px;
+}
+.buttonsContainer button {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: blue;
+    margin: 10px;
+    
+    
+}
+.rockClass{
+    background-image: url(rock.jpg);
+    background-size: contain;
+}
+.paperClass{
+    background-image: url(paper.jpg);
+    background-size: contain;
+}
+.scissorsClass{
+    background-image: url(scissors.webp);
+    background-size: 100% 100%;
+    
+}
+.resultContainer{
+    width: 70%;
+    height: 45vh;
+    box-sizing: border-box;
+    margin: 0 auto;
+    background-color: rgba(212, 180, 180, 0.329);
+    
+}
+.resultContainer h2 {
+    margin: 0;
+    padding: 3%;
+    font-size: 2rem;
+    text-align: center;
+    word-spacing: 70px;
+}
+.resultImages{
+    width: 100%;
+    box-sizing: border-box;
+    height: auto;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    
+}
+.youImage, .pcImage{
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+    color: rgb(211, 13, 13);
+    margin-left:  25px;
+    margin-right: 25px;
+    background-size: 100% 100%;
+    
+}

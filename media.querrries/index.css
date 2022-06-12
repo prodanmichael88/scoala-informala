@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+figure{
+    width: 80vw;
+    height: 80vh;
+    margin: 0 auto;
+}
+figure img{
+    width: 100%;
+    height: 100%;
+}
+#myCanvas{
+    border: 2px solid red;
+    position: absolute;
+    margin: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#myOtherCanvas{
+    border: 2px solid blue;
+    position: relative;
+    border-radius: 50%;
+    top: 18vh;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#svgOne{
+    position: absolute;
+    top: 130vh;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+#svgTwo{
+    position: absolute;
+    top: 150vh;
+    left: 50%;
+    transform: translateX(-30%);
+}
+
+@media  screen and (min-width:800px){
+    figure{
+        border:5px solid yellow;
+    }
+    body{
+        background-color: pink;
+    }
+}
+@media  screen and (min-width:1024px){
+    figure{
+        border:5px solid blue;
+    }
+    body{
+        background-color: antiquewhite;
+    }
+}
+@media  screen and (min-width:1920px){
+    figure{
+        border:5px solid red;
+    }
+    body{
+        background-color: aqua;
+    }
+}

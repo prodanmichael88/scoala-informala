@@ -1,0 +1,304 @@
+html,body{
+    margin: 0;
+}
+#topMenu{
+    width: 100vw;
+    height: 7vh;
+    background-color: rgba(0, 0, 0, 0.938);
+    margin: 0;
+    top: 0;
+    position:relative;
+    
+}
+#subMenu{
+    width: 100vw;
+    height: 5vh;
+    background-color: #696969;
+    position: absolute;
+    top: 7vh;
+    
+}
+#icon{
+    width: 7%;
+    height: 92%;
+    background-size:contain;
+    background-repeat:no-repeat;
+    object-fit:contain;
+    
+    margin-top: 2px;
+    
+    float: left;
+
+}
+#icon:hover{
+    border: 1px solid white; 
+}
+#deliver:hover {
+    border: 1px solid white;}
+img{
+    width: 100%;
+    height: 100%;
+    
+    
+}
+#deliver{
+     width: 5%;
+     height: 92%;
+     margin-top: 2px;
+     margin-left: 10px;
+     float: left;
+     text-align: center;
+}
+#search{
+    width: 70%;
+    height: 70%;
+    float: left;
+    display: flex;
+    margin:10px 0 10px 10px ;
+    
+}
+#searchBtn{
+    width: 40px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 0;
+    border: 0;
+    background-color: chocolate;
+    margin: 0;
+}
+#signIn{
+    width: 5%;
+    height: 90%;
+    margin-top: 4px;
+    float: left;
+    text-align: center;
+    color: aliceblue;
+}
+#signIn:hover{
+    border: 2px solid white;
+}
+#orders{
+     width: 5%;
+     height: 80%;
+     
+     float: left;
+     text-align:center;
+     color: aliceblue;
+     padding-top: 10px;
+}
+#orders:hover{
+    border: 2px solid white;
+}
+#cart{
+     width: 5%;
+     height: 82%;
+     background:url(cart.jpg);
+     background-size:contain;
+     background-repeat:no-repeat;
+     object-fit:contain;
+     margin-top: 2px;
+     float: left;
+}
+#cart:hover {
+    border:2px solid white;
+    
+}
+#dropdown {
+    width: 5%;
+    height: 80%;
+    padding-top:10px;
+    color: white;
+    text-align: center;
+    
+    
+    
+}
+#dropdown:hover{
+    border:2px solid white
+}
+#deals{
+    position: absolute;
+    height: 50%;
+    margin: 0;
+    padding: 10px;
+    left: 7%;
+    top: 0;
+    color: white;
+}
+#CustomerService{
+    position: absolute;
+    height: 50%;
+    margin: 0;
+    padding: 10px;
+    top: 0;
+    left: 15%;
+    color: white;
+}
+#Registry {
+    position: absolute;
+    height: 70%;
+    margin: 0;
+    padding-top: 10px;
+    top:0;
+    left: 25%;
+    color: white;
+}
+ #Registry:hover{
+ border:2px solid white;
+}
+#deals:hover{
+     border:2px solid white
+}
+#CustomerService:hover{
+     border:2px solid white
+}
+.background{
+    width: 80vw;
+    height: 80vh;
+    margin: 0 auto;
+    background-image: linear-gradient(to bottom, rgb(76, 238, 76), white);
+}
+#container1{
+width: 19vw;
+height: 40vh;
+background-color: white;
+margin: 0 auto;
+position:absolute;
+top:40%;
+left: 10.5%;
+-webkit-transition: 0.8s;
+}
+
+#container2 {
+    width: 19vw;
+    height: 40vh;
+    background-color: white;
+    position: absolute;
+    top: 40%;
+    left: 30.5%;
+    -webkit-transition: 0.8s;
+}
+#container3 {
+    width: 19vw;
+    height: 40vh;
+    background-color: white;
+    position: absolute;
+    top: 40%;
+    left: 50.5%;
+}
+#container4 {
+    width: 19vw;
+    height: 40vh;
+    background-color: white;
+    position: absolute;
+    top: 40%;
+    left: 70.5%;
+}
+h1{
+    font-size:x-large;
+}
+.subContainer{
+        width: 40%;
+        height: 40%;
+        float: left;
+        margin-left: 5%;
+        margin-top: 3%;
+}
+#sub1{
+    background-image: url(headset.jpg);
+    background-size:100% 100%;
+    
+    
+}
+#sub2{
+    background-image: url(keyboards.jpg);
+    background-size: 100% 90%;
+    
+
+}
+#sub3{
+    background-image: url(mice.jpg);
+    background-size: 100% 100%;
+}
+#sub4{
+    background-image: url(chairs.jpg);
+    background-size: 100% 100%;
+}
+#sub21{
+    background-image: url(computers.jpg);
+    background-size: 100% 100%;
+}
+#sub22{
+    background-image: url(games.jpg);
+    background-size: 100% 100%;
+}
+#sub23{
+    background-image: url(babies.jpg);
+    background-size: 100% 100%;
+}
+#sub24{
+    background-image: url(toys.jpg);
+    background-size: 100% 100%;
+}
+.subContainer3{
+    margin: 5%;
+    width: 90%;
+    height: 90%;
+    background-image: url(basics.jpg);
+    background-size: 100% 100%;
+}
+.subContainer4 {
+    margin: 5%;
+    width: 90%;
+    height: 90%;
+    background-image: url(beauty.jpg);
+    background-size: 100% 100%;
+}
+.footer{
+    width: 80%;
+    height: 40vh;
+    position: absolute;
+    top:95%;
+    left: 10%;
+    
+    background-color: rgba(0, 0, 0, 0.938);
+}
+.containFooter{
+    width:60%;
+    height: 90%;
+    position: absolute;
+    top: 5%;
+    left: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+.subContainFooter{
+    width: 30%;
+    height: 100%; 
+}
+h2 , p{
+    color: white;
+}
+p:hover{
+    text-decoration: underline white;
+}
+.backToTop{
+    width: 100%;
+    height: 5%;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    text-align: center;
+    margin-bottom: 8px;
+    
+}
+.backToTop a{
+     margin: 0;
+     color: white;
+     text-decoration: none
+}
+.backToTop a:hover{
+    color: red;
+    transition: 1s;
+    
+}
